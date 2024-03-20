@@ -1,7 +1,7 @@
 apiVersion: keycloak.org/v1alpha1
 kind: KeycloakUser
 metadata:
-  name: raffa
+  name: tstasse
   labels:
     app: sso
   namespace: sso
@@ -10,10 +10,10 @@ spec:
     matchLabels:
       app: sso
   user:
-    username: raffa
-    firstName: Raffa
-    lastName: Raffa
-    email: raffa@example.com
+    username: tstasse
+    firstName: Tim
+    lastName: Stasse
+    email: tstasse@redhat.com
     enabled: true
     emailVerified: true
     groups:
@@ -21,7 +21,7 @@ spec:
     credentials:
       - temporary: false
         type: password
-        value: raffa
+        value: tstasse
 ---
 apiVersion: keycloak.org/v1alpha1
 kind: KeycloakUser

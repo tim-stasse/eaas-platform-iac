@@ -77,7 +77,7 @@ upstream:
             token: ${GITHUB_TOKEN}        
       catalog:
         locations:
-        - target: https://github.com/environment-aas/platform-iac/tree/main/.backstage-templates/namespace/template.yaml
+        - target: https://github.com/tim-stasse/eaas-platform-iac/tree/main/.backstage-templates/namespace/template.yaml
           type: url      
         providers:
           keycloakOrg:

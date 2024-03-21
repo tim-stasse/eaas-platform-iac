@@ -9,7 +9,7 @@ roleRef:
 subjects:
   - apiGroup: rbac.authorization.k8s.io
     kind: User
-    name: raffa
+    name: tstasse
   - apiGroup: rbac.authorization.k8s.io
     kind: User
     name: vinny

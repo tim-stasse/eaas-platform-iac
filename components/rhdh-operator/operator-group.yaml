@@ -4,6 +4,4 @@ metadata:
   name: rhdh-operator
   namespace: rhdh-operator
 spec:
-  targetNamespaces:
-    - rhdh-operator
   upgradeStrategy: Default
